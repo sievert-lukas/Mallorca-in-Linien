@@ -34,7 +34,7 @@
     wrap.innerHTML = '<div class="poster-bar"><a class="btn" href="#">Zurück zur Karte</a>' +
       (inFrame ? "" : '<button class="btn" type="button" data-svg>SVG herunterladen (A1)</button>') +
       '<p>Plakat A1 quer, 841 × 594 mm. Drucken: Strg oder Cmd + P, Papier A1, A3 oder A4 quer, randlos.</p>' +
-      '<p class="poster-legal"><a href="https://sievert-lukas.github.io/apps/impressum/" target="_blank" rel="noopener">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p></div>' +
+      '<p class="poster-legal"><a href="https://sievert-lukas.github.io/apps/impressum/" target="_blank" rel="noopener">Impressum</a> · <a href="https://sievert-lukas.github.io/apps/datenschutz/mallorca-in-linien/" target="_blank" rel="noopener">Datenschutz</a></p></div>' +
       '<div class="poster-stage"></div>';
     document.body.appendChild(wrap);
     const stage = wrap.querySelector(".poster-stage");
